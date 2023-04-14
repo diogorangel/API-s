@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "2a77839a-88a5-4b75-a40f-562d6bcc3953",
+		"name": "Robot Testes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10369220"
+	},
+	"item": [
+		{
+			"name": "4DevsPostmanTest",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "acao",
+							"value": "gerar_pessoa",
+							"type": "text"
+						},
+						{
+							"key": "pontuacao",
+							"value": "N",
+							"type": "text"
+						},
+						{
+							"key": "sexo",
+							"value": "M",
+							"type": "text"
+						},
+						{
+							"key": "txt_qtde",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://www.4devs.com.br/ferramentas_online.php",
+					"protocol": "https",
+					"host": [
+						"www",
+						"4devs",
+						"com",
+						"br"
+					],
+					"path": [
+						"ferramentas_online.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
